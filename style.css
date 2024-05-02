@@ -1,0 +1,40 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background: linear-gradient(to top left, rgb(255, 0, 0), rgb(0, 0, 0));
+    height: 100vh;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+label{
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+input{
+    width: 82px;
+    background-color: black;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 16px;
+}
+
+button{
+    background-color: red;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    color: white;
+    width: 25%;
+    padding: 8px;
+    border-radius: 24px;
+    cursor: pointer;
+}
